@@ -1,0 +1,18 @@
+# files created by emacs
+*~
+
+# files created by Eclipse
+.classpath
+.project
+.settings/
+
+# files created by Gradle
+.gradle/
+build/
+
+# files created by Katalon Studio
+bin/
+Drivers/
+    # type "$ gradle katalonCopyDependencies" to download external jars
+Libs/
+Reports
