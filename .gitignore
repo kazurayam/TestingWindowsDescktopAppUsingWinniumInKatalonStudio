@@ -16,3 +16,6 @@ Drivers/
     # type "$ gradle katalonCopyDependencies" to download external jars
 Libs/
 Reports
+
+# files created by my test cases
+tmp/
