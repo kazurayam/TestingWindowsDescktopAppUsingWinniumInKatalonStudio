@@ -33,7 +33,7 @@ DesktopOptions desktop = new DesktopOptions()
 desktop.setApplicationPath("C:\\Windows\\System32\\notepad.exe")
 try {
     driver = new WiniumDriver(new URL('http://localhost:9999'), desktop)
-    driver.manage().window().maximize()
+    //driver.manage().window().maximize() // https://github.com/2gis/Winium.Desktop/issues/199
 } catch (MalformedURLException e) {
     e.printStackTrace()
 }
